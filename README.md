@@ -22,4 +22,7 @@ You can simply run
 |-- test_pred.txt # 测试集的最终预测结果
 ```
 ## Run code  
-`python cnn_resnet.py`  
+输入如下语句运行代码：  
+```python cnn_resnet.py```   
+最后需要输入如下语句转换测试集的测试结果：  
+```python convert_pred.py```
