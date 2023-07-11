@@ -16,8 +16,13 @@ You can simply run
 |-- ResNet.py # 模型中ResNet结构的代码  
 |-- cnn_resnet.png  
 |-- cnn_resnet.py # 实验的主体代码，包括数据预处理、模型的训练和测试以及消融实验等  
-|-- cnn_resnet_params.png  
-|-- pred.txt # 测试集的预测结果  
+|-- cnn_resnet_params.png
+|-- convert_perd.py # 转换测试结果顺序的文件
+|-- pred.txt # 测试集的预测结果，按guid排序
+|-- test_pred.txt # 测试集的最终预测结果，按测试集顺序排序
 ```
 ## Run code  
-`python cnn_resnet.py`  
+输入如下语句运行代码：  
+```python cnn_resnet.py```   
+最后需要输入如下语句转换测试集的测试结果：  
+```python convert_pred.py```
