@@ -16,8 +16,10 @@ You can simply run
 |-- ResNet.py # 模型中ResNet结构的代码  
 |-- cnn_resnet.png  
 |-- cnn_resnet.py # 实验的主体代码，包括数据预处理、模型的训练和测试以及消融实验等  
-|-- cnn_resnet_params.png  
-|-- pred.txt # 测试集的预测结果  
+|-- cnn_resnet_params.png
+|-- convert_perd.py # 转换测试结果的文件
+|-- pred.txt # 测试集的预测结果（标签为整数）
+|-- test_pred.txt # 测试集的最终预测结果
 ```
 ## Run code  
 `python cnn_resnet.py`  
